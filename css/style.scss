@@ -12,7 +12,7 @@ body {
 }
 
 .container {
-  max-width: 769px;
+  max-width: 1025px;
   margin: 0 auto;
   padding: 0 15px;
 
@@ -90,7 +90,7 @@ main {
       margin: 41px 0 106px;
 
       span {
-        color:darkred;
+        color: darkred;
         position: relative;
         transition: .5s;
       }
@@ -150,6 +150,68 @@ main {
 
   }
 
+  .cooperation {
+    text-align: center;
+    padding: 117px 0 82px;
+
+    &__title {
+      font-weight: bold;
+      font-size: 48px;
+      line-height: 142%;
+      text-align: center;
+      color: #B0FBBC;
+    }
+
+    &__desc {
+      font-size: 18px;
+      line-height: 27px;
+      text-align: center;
+      color: #ECF8FF;
+      margin: 23px 0 46px;
+      width: 463px;
+    }
+  }
+
+}
+
+.footer {
+  padding: 40px 0;
+
+  &__box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__desc {
+    font-size: 16px;
+    line-height: 180%;
+    color: #B8C1C7;
+  }
+
+  &__right {
+    a {
+      color: #B8C1C7;
+      margin-left: 15px;
+    }
+
+  }
 
 
+}
+.about {
+  .container {
+    &__title {
+      font-size: 48px;
+      line-height: 142%;
+      color: #ECF8FF;
+    }
+
+    &__info {
+      font-size: 18px;
+      line-height: 27px;
+      color: #ECF8FF;
+      width: 780px;
+    }
+  }
 }
