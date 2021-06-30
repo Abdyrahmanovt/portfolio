@@ -19,26 +19,103 @@ body {
 main {
   background: #1c2b34;
 }
-
-.header .navbar {
+main .header {
+  padding: 68px 0;
+}
+main .header .navbar {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.header .navbar__left-side {
+main .header .navbar__left-side {
   display: flex;
   align-items: center;
 }
-.header .navbar__left-side .logo-right span {
+main .header .navbar__left-side .logo-right span {
   font-weight: bold;
   font-size: 18px;
   line-height: 26px;
   color: #ECF8FF;
   margin-left: 20px;
 }
-.header .navbar__right-side .menu li {
+main .header .navbar__right-side .menu li {
   list-style: none;
   display: inline-block;
+}
+main .header .navbar__right-side .menu__link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 23px;
+  color: #ECF8FF;
+  margin-right: 32px;
+  transition: 0.4s;
+}
+main .header .navbar__right-side .menu__link:hover {
+  color: #8ffaa9;
+}
+main .hero {
+  text-align: left;
+  height: 100vh;
+}
+main .hero__title {
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 142%;
+  text-shadow: 0 0 76px rgba(188, 251, 195, 0.3);
+  color: #8ffaa9;
+}
+main .hero__desc {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 180%;
+  color: #ECF8FF;
+  width: 584px;
+  margin: 41px 0 106px;
+}
+main .hero__desc span {
+  color: darkred;
+  position: relative;
+  transition: 0.5s;
+}
+main .hero .articles {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 35px;
+}
+main .hero .articles__subtitle {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 35px;
+  color: #ECF8FF;
+}
+main .hero .articles__view {
+  font-size: 16px;
+  line-height: 24px;
+  color: #ECF8FF;
+}
+main .hero .tools .programs {
+  display: flex;
+  align-items: center;
+}
+main .hero .tools .programs svg {
+  margin-right: 10px;
+}
+main .hero .tools__info {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  color: #ECF8FF;
+  margin-bottom: 4px;
+}
+main .hero .tools .date {
+  font-size: 12px;
+  line-height: 18px;
+  color: #5E8CA7;
+  margin-left: 29px;
+}
+main .hero .tools:not(:last-child) {
+  margin-bottom: 30px;
 }
 
 /*# sourceMappingURL=style.css.map */
