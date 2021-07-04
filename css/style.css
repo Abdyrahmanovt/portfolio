@@ -10,6 +10,10 @@ body {
   font-family: "Jost", sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .container {
   max-width: 1025px;
   margin: 0 auto;
@@ -73,7 +77,7 @@ main .hero__desc {
   margin: 41px 0 106px;
 }
 main .hero__desc span {
-  color: darkred;
+  color: #ff3939;
   position: relative;
   transition: 0.5s;
 }
@@ -118,8 +122,8 @@ main .hero .tools:not(:last-child) {
   margin-bottom: 30px;
 }
 main .cooperation {
-  text-align: center;
   padding: 117px 0 82px;
+  text-align: center;
 }
 main .cooperation__title {
   font-weight: bold;
@@ -127,14 +131,19 @@ main .cooperation__title {
   line-height: 142%;
   text-align: center;
   color: #B0FBBC;
+  margin-bottom: 23px;
 }
 main .cooperation__desc {
   font-size: 18px;
   line-height: 27px;
   text-align: center;
   color: #ECF8FF;
-  margin: 23px 0 46px;
   width: 463px;
+  margin: 0 auto;
+}
+main .cooperation .chat {
+  margin-top: 46px;
+  display: inline-block;
 }
 
 .footer {
@@ -155,16 +164,24 @@ main .cooperation__desc {
   margin-left: 15px;
 }
 
-.about .container__title {
+.about__title {
   font-size: 48px;
   line-height: 142%;
   color: #ECF8FF;
+  margin-bottom: 42px;
 }
-.about .container__info {
+.about__info {
   font-size: 18px;
   line-height: 27px;
   color: #ECF8FF;
   width: 780px;
+}
+.about__subtitle {
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 38px;
+  color: #ECF8FF;
+  margin: 66px 0 27px;
 }
 
 /*# sourceMappingURL=style.css.map */
